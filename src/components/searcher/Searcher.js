@@ -6,7 +6,7 @@ import { useLazyQuery } from '@apollo/client'
 
 import { SEARCH_MOVIES } from '../../graphql'
 
-import Results from '../result/Results'
+import Results from './components/result/Results'
 import Loader from '../loader/Loader'
 
 const Searcher = () => {
@@ -41,7 +41,7 @@ const Searcher = () => {
           variant='outlined'
           onClick={onHitButton}
         >
-          HIT
+          SEARCH
         </Button>
       </div>
       <>{loading && <Loader />}</>

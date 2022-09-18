@@ -10,11 +10,11 @@ import {
 } from '@mui/material'
 
 import { ExpandMore } from '@mui/icons-material'
-import { useGetWikiByTitle } from '../../../axios/hooks'
+import { useGetWikiByTitle } from '../../../../../axios/hooks'
 
 import './Result.css'
 import { useEffect } from 'react'
-import Loader from '../../loader/Loader'
+import Loader from '../../../../loader/Loader'
 
 const Result = ({ movie }) => {
   const {
