@@ -1,7 +1,5 @@
 ## Movie searcher
 
----
-
 ### To Start
 
 > yarn start  
