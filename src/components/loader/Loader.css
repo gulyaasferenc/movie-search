@@ -1,0 +1,16 @@
+.loading {
+  min-height: 5rem;
+  animation: loading 1s infinite linear;
+}
+
+@keyframes loading {
+  0% {
+    font-size: 8px;
+  }
+  50% {
+    font-size: 22px;
+  }
+  100% {
+    font-size: 8px;
+  }
+}

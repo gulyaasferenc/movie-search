@@ -1,0 +1,13 @@
+.searcher-container {
+  padding: 3rem;
+  display: flex;
+  height: 7rem;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.mainContainer {
+  width: 70%;
+  margin: auto;
+}
