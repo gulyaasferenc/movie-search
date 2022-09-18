@@ -5,4 +5,4 @@
 ### To Start
 
 > yarn start  
-> Chek on localhost:3000
+> Check on localhost:3000
